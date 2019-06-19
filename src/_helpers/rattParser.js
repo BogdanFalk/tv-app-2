@@ -34,7 +34,7 @@ export default {
                 i++;
             }
             else {
-                if (isNaN(element["1"].charAt(0)) && element["1"].charAt(0) != '&') {
+                if (isNaN(element["1"].charAt(0)) && element["1"].charAt(0) != '&' && element["1"].charAt(0) != '*') {
 
                     var station = [];
                     station["name"] = element["1"];
