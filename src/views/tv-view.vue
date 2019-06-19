@@ -1,14 +1,17 @@
 <template>
   <v-carousel hide-delimiters style="height:100%">
     <News/>
+    <RattT8/>
   </v-carousel>
 </template>
 
 <script>
 import News from "../components/news-component";
+import RattT8 from "../components/ratt-T8-component";
 export default {
   components: {
-    News
+    News,
+    RattT8
   },
   data() {
     return {
